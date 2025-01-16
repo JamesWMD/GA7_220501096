@@ -1,0 +1,109 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 ene. 2025, 12:17:28
+    Author     : JAMES
+*/
+
+.form {
+    background-color: #f8efe4;
+    max-width: 700px;
+    max-height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.form_tittle {
+    text-align: center;
+}
+
+.form__actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__input {
+    padding: 0 5px;
+}
+
+.form__button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #000;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+.form__button--save {
+    background-color: #03c203;
+}
+
+.form__button--modify {
+    background-color: orange;
+}
+
+.form__button--consult {
+    background-color: cornflowerblue;
+}
+
+.form__button--delete {
+    background-color: #ff0000;
+}
+
+
+
+.form__button:active {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}
+
+.form__label {
+    font-weight: bold;
+}
+.form__button--delete {
+    background-color: #ff0000;
+}
+
+
+
+#nombre{
+    width: 350Px;
+}
+#id, 
+#identificacion,
+#password {
+    width: 150px;
+}
+
+#id, #nom, #pas {
+    border: 1px solid;
+}
+.form__table{
+    width: 100%;
+}
+.form__table-cell {
+    border: none;
+    padding: 0px 10px;
+}
